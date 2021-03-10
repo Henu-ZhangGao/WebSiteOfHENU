@@ -1,0 +1,54 @@
+/*特有性质*/
+.main .nav ul .fourth{
+	background-color:rgb(85, 170, 255);
+}
+.main .panel {
+	padding:20px;
+	margin-top:20px;
+	background-color:#FFF;
+	overflow:hidden;
+}
+.main .panel .title{
+	overflow:hidden;
+	margin-bottom:12px;
+}
+.main .panel .title h3{
+	font-weight:normal;
+	float:left;
+	font-size:20px;
+	border-bottom:2px solid #ff5e52;
+}
+	.main .foreign{
+	overflow-x:scroll;
+	text-align:center;
+	font-size: 14px;
+	color: rgb(245,142,11);
+	}
+	.main .foreign a{
+		font-size: 14px;
+		color: #333;
+		}
+	.main .foreign a:hover{
+		color: rgb(245,142,11);
+	}
+	.main .foreign span{
+		font-size: 18px;
+	}
+	.main .foreign button a{
+		color: #fff;
+	}
+	.main .foreign button{
+		border-radius: 5%;
+		border: 0;
+		height: 40px;
+		width: 150px;
+		background-color:rgb(245,142,11) ;
+	}
+	.main .foreign button a:hover{
+		color: #eee;
+		background-color: #f00;
+	}
+	.main .foreign img:hover{
+		transform: scale(1.1);
+		transition: all 0.6s;
+	}
